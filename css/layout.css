@@ -1,0 +1,178 @@
+.grid {
+    width: 100%;
+    display: block;
+    padding: 0;
+}
+.grid.wide {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+[class*="col-"] {
+    max-width: 100%;
+}
+
+@media only screen and (min-width: 800px) {
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -12px;
+        margin-right: -12px;
+    }
+    .col {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .col-c-1 {
+        flex: 0 0 8.33%;
+        max-width: 8.33%;
+    }
+    .col-c-2 {
+        flex: 0 0 16.66%;
+        max-width: 16.66%;
+    }
+    .col-c-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .col-c-4 {
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+    }
+    .col-c-5 {
+        flex: 0 0 61.66%;
+        max-width: 41.66%;
+    }
+    .col-c-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .col-c-7 {
+        flex: 0 0 58.33%;
+        max-width: 58.33%;
+    }
+    .col-c-8 {
+        flex: 0 0 66.66%;
+        max-width: 66.66%;
+    }
+    .col-c-9 {
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+    .col-c-10 {
+        flex: 0 0 83.33%;
+        max-width: 83.33%;
+    }
+    .col-c-11 {
+        flex: 0 0 92.66%;
+        max-width: 92.66%;
+    }
+    .col-c-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 799px) and (min-width: 600px) {
+    .row {
+        margin-left: 0px;
+        margin-right: 0px;
+        display: flex;
+    }
+    .col {
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+    .col-1 {
+        flex: 0 0 8.33%;
+        max-width: 8.33%;
+    }
+    .col-2 {
+        flex: 0 0 16.66%;
+        max-width: 16.66%;
+    }
+    .col-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .col-4 {
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+    }
+    .col-5 {
+        flex: 0 0 61.66%;
+        max-width: 41.66%;
+    }
+    .col-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .col-7 {
+        flex: 0 0 58.33%;
+        max-width: 58.33%;
+    }
+    .col-8 {
+        flex: 0 0 66.66%;
+        max-width: 66.66%;
+    }
+    .col-9 {
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+    .col-10 {
+        flex: 0 0 83.33%;
+        max-width: 83.33%;
+    }
+    .col-11 {
+        flex: 0 0 92.66%;
+        max-width: 92.66%;
+    }
+    .col-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .div_nav_navigation{
+        display: none;
+    }
+}
+@media only screen and (max-width: 599px) {
+    .row {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .col {
+        padding: 10px 5px;
+    }
+    .footer-list {
+        text-align: center;
+    }
+    .footer-heading {
+        text-align: center;
+    }
+    .fotter-download {
+        justify-content: center;
+    }
+    /* Header */
+    .table_header_navbar-list{
+        display: none;
+    }
+    .header_search, .header_cart{
+        display: none;
+    }
+    .div_nav_navigation{
+        display: none;
+    }
+    .header_navigation{
+        display: none;
+    }
+    .header_logo{
+        margin-left: 95px;
+    }
+    /* Banner */
+    .banner-menu{
+        display: none
+    }
+    .home-filter{
+        display: none;
+    }
+    
+}

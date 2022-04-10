@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,300;1,400&display=swap');
+
+body {
+    --color-primary: #007706;
+    --color-primary-dark: #145700;
+    --color-secondary: #0e3a00;
+    --color-error: #cc3333;
+    --color-success: #4bb544;
+    --border-radius: 7px;
+
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    background: url("https://roisin.qodeinteractive.com/wp-content/uploads/2020/02/roisin-landing-background-img-1.jpg");
+    background-size: cover;
+}
+
+.container {
+    width: 400px;
+    max-width: 400px;
+    margin: 1rem;
+    padding: 2rem;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+    border-radius: var(--border-radius);
+    background: rgb(188, 201, 173);
+    border: 5px solid #165f00;
+}
+
+.container,
+.form-input,
+.form-button {
+    font: 500 1rem 'Quicksand', sans-serif;
+}
+
+.form-hidden {
+    display: none;
+}
+
+.form > *:first-child {
+    margin-top: 0;
+}
+
+.form > *:last-child {
+    margin-bottom: 0;
+}
+
+.form-title {
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 50px;
+    color: #0f3f00;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+}
+
+.form-slogan {
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 25px;
+    color: #0f3f00;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: italic;
+}
+
+.form-message {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.form-message-success {
+    color: var(--color-success);
+}
+
+.form-error {
+    color: var(--color-error);
+}
+
+.form-input-group {
+    margin-bottom: 1rem;
+}
+
+.form-input {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    box-sizing: border-box;
+    border-radius: var(--border-radius);
+    border: 2px solid #dddddd;
+    outline: none;
+    background: #ffffff;
+    transition: 0.2s;
+}
+
+.form-input:focus {
+    border-color: var(--color-primary);
+    background: #ffffff;
+}
+
+.form-input-error {
+    color: var(--color-error);
+    border-color: var(--color-error);
+}
+
+.form-input-error-message {
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+    color: var(--color-error);
+}
+
+.form-button {
+    width: 100%;
+    padding: 1rem 2rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #ffffff;
+    border: none;
+    border-radius: var(--border-radius);
+    outline: none;
+    cursor: pointer;
+    background: var(--color-primary);
+}
+
+.form-button:hover {
+    background: var(--color-primary-dark);
+}
+
+.form-button:active {
+    transform: scale(0.98);
+}
+
+.form-text {
+    text-align: center;
+}
+
+.form-link {
+    color: var(--color-secondary);
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.form-link:hover {
+    text-decoration: underline;
+}
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+#menu-list a {
+    align-items: center;
+    color: #999;
+    display: flex;
+    font-size: 12px;
+    font-weight: 600;
+    height: 100%;
+    justify-content: center;
+    line-height: 22px;
+    text-transform: uppercase;
+    width: 100%;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.form-label{
+    font-weight: bold;
+    font-size: 20px;
+    color: #0f3f00;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: italic;
+}
+
+#logoEco{
+    position: absolute;
+    top: 2%;
+    left: 1%;
+    cursor: pointer;
+    /* height: 4rem; */
+}
+
+@media (max-width: 575px){
+    #logoEco{
+        top: 1%;
+        left: 22%;
+    }
+}
